@@ -83,7 +83,7 @@
 /*Service container style*/
 #service-container{
 	width: 100%;
-	height: 600px;
+	height: 650px;
 	background-color: #17c2a4;
 }
 #service-title{
@@ -114,6 +114,7 @@
 	padding-left: 140px;
 }
 .services-pic{
+	position: relative;
 	margin: 0 auto;
 	padding-right: 25px;
 }
@@ -124,6 +125,7 @@
 	text-align: center;
 }
 .services-header{
+	position: relative;
 	padding-right: 100px;
 	font-family: 'TitillumWeb Bold';
 	font-weight: bold;
@@ -131,6 +133,7 @@
 	text-align: center;
 }
 .services-description{
+	position: relative;
 	text-align: center;
 	width: 200px;
 	font-size: 13pt;
@@ -139,4 +142,73 @@
 }
 .services-item h3{
 	padding-top: 30px;
+}
+/*TEAM container Style*/
+#team-container{
+	width: 100%;
+	height: 850px;
+	background-color: #e7f1f8;
+}
+#team-header{
+	font-family: 'TitillumWeb Bold';
+	font-weight: bold;
+	font-size: 30pt;
+	text-align: center;
+	color: #3c4761;
+	padding-top: 50px;
+}
+#team-description{
+	font-family: 'TitillumWeb Regular';
+	font-size: 15pt;
+	font-weight: normal;
+	color: #3c4761;
+	text-align: center;
+	padding-top: 20px;
+}
+#team-container hr{
+	color: #c8d9e5;
+	width: 100px;
+	margin: 0 auto;
+}
+#members-container{
+	width: 90%;
+	margin: 0 auto;
+}
+.team-members{
+	padding-left: 100px;
+	float: left;
+	padding-top: 100px
+}
+.members-name{
+	color: #27283d;
+	font-family: 'TitillumWeb Bold';
+	font-weight: bold;
+	font-size: 19pt;
+	text-align: center;
+	padding-top: 25px;
+}
+.member-job{
+	font-family: 'TitillumWeb Regular';
+	font-weight: normal;
+	font-size: 14pt;
+	text-align: center;
+	color: #70c9eb;
+}
+.member-description{
+	position: relative;
+	font-family: 'TitilliumWeb Light';
+	font-weight: lighter;
+	font-size: 12pt;
+	color: #a2acb9;
+	text-align: center;
+	width: 200px;
+	padding-top: 20px;
+}
+.members-social i{
+	float: left;
+	color: #bdd1df;
+	font-size: 17pt;
+	text-align: center;
+	padding-top: 20px;
+	padding-left: 20px;
 }
