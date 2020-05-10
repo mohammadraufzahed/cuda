@@ -212,3 +212,79 @@
 	padding-top: 20px;
 	padding-left: 20px;
 }
+/*Skills container style*/
+#skills-container{
+	width: 100%;
+	height: 600px;
+	background-color: #fff;
+}
+#skills-title{
+	font-family: 'TitillumWeb Bold';
+	font-weight: bold;
+	font-size: 30pt;
+	text-align: center;
+	padding-top: 50px;
+	color: #3c4761;
+}
+#skills-container hr{
+	color: #dfe8ed;
+	width: 100px;
+	margin: 0 auto;
+}
+#skills-description{
+	font-family: 'TitillumWeb Regular';
+	font-weight: normal;
+	font-size: 15pt;
+	text-align: center;
+	color: #3c4761;
+	padding-top: 20px;
+}
+.ldBar path.mainline{
+	stroke-width: 8px;
+	stroke: #30bae7;
+	stroke-linecap: round;
+}
+.ldBar{
+	width: 150px !important;
+	height: 150px !important;
+}
+.pink path.mainline{
+	stroke: #d74680;
+}
+.green path.mainline{
+	stroke: #82e1d1;
+}
+.orange path.mainline{
+	stroke: #eb7d4b;
+}
+.ldBar path.baseline{
+	stroke-width: 8px;
+	stroke: #dfe8ed;
+	stroke-linecap: round;
+}
+.label-center{
+	font-family: 'TitilliumWeb Light';
+	font-weight: lighter;
+	font-size: 20pt;
+}
+.skills-item{
+	position: relative;
+	left: 200px;
+	
+}
+.progress-bar{
+	float: left;
+}
+#skill-items{
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+.skill-title{
+	font-family: 'TitillumWeb Bold';
+	font-weight: bold;
+	font-size: 15pt;
+	text-align: center;
+	padding-top: 10px;
+	color: #3c4761;
+}
