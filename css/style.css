@@ -15,6 +15,10 @@
 	font-family: 'TitilliumWeb Light';
 	src: url(../fonts/TitilliumWeb-Light.ttf);
 }
+@font-face{
+	font-family: 'TitilliumWeb Italic';
+	src: url(../fonts/TitilliumWeb-Italic.ttf);
+}
 /*Fonts end*/
 *{
 	box-sizing: border-box;
@@ -369,4 +373,86 @@
 	color: #ffffff;
 	border: 0px;
 	background-color: #17c2a4;
+}
+/*Customers container style*/
+#customers-container{
+	width: 100%;
+	height: auto;
+	background-color: #d74680;
+}
+#customers-container hr{
+	color: #b73c6d;
+	width: 100px;
+	margin: 0 auto;
+}
+#customers-container-title{
+	font-family: 'TitillumWeb Bold';
+	font-weight: bold;
+	font-size: 30pt;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 50px;
+}
+#customers-container-description{
+	font-family: 'TitillumWeb Regular';
+	font-weight: normal;
+	font-size: 15pt;
+	color: #fff;
+	text-align: center;
+	padding-top: 20px;
+}
+#customer-feedbacks{
+	padding-top: 50px;
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 500px;
+}
+.customers-feedback{
+	overflow: hidden;
+	display: inline-block; 
+	margin: 0 auto;
+	width: 35%;
+}
+.customers-profile{
+	position: relative;
+	width: 23%;
+	float: left;
+}
+.customers-comment{
+	position: relative;
+	width: 77%;
+	font-family: 'TitilliumWeb Italic';
+	font-weight: normal;
+	font-size: 12pt;
+	float: right;
+	text-align: left;
+	color: #fff;
+	left: 25px;
+}.customer-name{
+	font-family: 'TitillumWeb Bold';
+	font-weight: bold;
+	font-size: 14pt;
+	color: #fff;
+	float: left;
+	padding-top: 10px;
+	padding-left: 45px;
+}
+.customer-job{
+	font-family: 'TitillumWeb Regular';
+	font-weight: normal;
+	font-size: 11pt;
+	color: #ffdd99;
+	float: left;
+	clear: both;
+	padding-top: 0px;
+	padding-left: 158px;
+}
+.customerss-feedback{
+	display: inline-block;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
 }
