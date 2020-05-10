@@ -330,13 +330,12 @@
 	color: #393939;
 	background-color: #ebc985;
 	text-align: center;
-	margin: 0 auto;
 	cursor: pointer;
 }
-.portfolio-buttons:focus{
+#portfolio-button button:focus{
+	transition: all 1s;
 	background-color: #ffffff;
 	color: #ffdd99;
-	transition: all 1s;
 }
 #protfolio-items{
 	width: 80%;
