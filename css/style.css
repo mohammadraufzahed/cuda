@@ -355,12 +355,14 @@
 	color: #393939;
 	padding-top: 20px;
 }
-#portfolio-button{
+#portfolio-button-2{
+	width: 16%;
 	clear: both;
 	padding-top: 20px;
 	padding-bottom: 60px;
+	margin: 0 auto;
 }
-#portfolio-button button{
+#portfolio-button-2 button{
 	font-family: 'TitilliumWeb SemiBold';
 	font-weight: normal;
 	font-size: 14pt;
