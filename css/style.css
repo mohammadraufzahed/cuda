@@ -403,7 +403,7 @@
 }
 #customer-feedbacks{
 	padding-top: 50px;
-	width: 90%;
+	width: 80%;
 	margin: 0 auto;
 	padding-bottom: 500px;
 }
@@ -455,4 +455,27 @@
 }
 .right{
 	float: right;
+}
+/*Footer style*/
+#footer{
+	width: 100%;
+	height: auto;
+	background-color: #344b8e;
+	text-align: center;
+}
+#footer-link{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.fotter-links{
+	font-family: 'TitilliumWeb SemiBold';
+	font-weight: normal;
+	font-size: 16pt;
+	color: white;
+	text-decoration: none;
+	padding-left: 30px;
+}
+.fotter-links:hover{
+	color: #30bae7;
+	transition: all 0.5s;
 }
