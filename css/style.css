@@ -456,3 +456,80 @@
 .right{
 	float: right;
 }
+/*Contact Container style*/
+#contact-container{
+	width: 100%;
+	height: auto;
+	background-color: #3c5499;
+}
+#contact-container hr{
+	width: 100px;
+	color: #324785;
+	margin: 0 auto;
+}
+#contact-title{
+	font-family: 'TitillumWeb Bold';
+	font-weight: bold;
+	font-size: 30pt;
+	color: #fff;
+	text-align: center;
+	padding-top: 50px;
+}
+#contact-address{
+	font-family: 'TitillumWeb Regular';
+	font-weight: normal;
+	font-size: 15pt;
+	color: #fff;
+	text-align: center;
+	padding-top: 20px;
+}
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+#contact-form{
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+.contact-form-input{
+	font-family: 'TitillumWeb Regular';
+	font-weight: normal;
+	font-size: 12pt;
+	color: #fff;
+	border: 0px;
+	background-color: #273a71;
+}
+.contact-form-input-text{
+	width: 400px;
+	height: 35px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.contact-form-input-message{
+	width: 810px;
+	height: 200px;
+}
+#submit-button{ 
+	text-align: center;
+	font-family: 'TitilliumWeb SemiBold';
+	font-weight: normal;
+	font-size: 12pt;
+	color: #fff;
+	background-color: #30bae7;
+	border: 0px;
+	width: 200px;
+	height: 40px;
+	margin-top: 20px;
+}
