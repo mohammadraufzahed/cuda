@@ -128,6 +128,7 @@
 	float: left;
 	color: #fff;
 	text-align: center;
+	margin-left: 60px;
 }
 .services-header{
 	position: relative;
@@ -273,8 +274,7 @@
 	font-size: 20pt;
 }
 .skills-item{
-	position: relative;
-	left: 200px;
+	margin-left: 150px;
 	
 }
 .progress-bar{
@@ -606,7 +606,7 @@
 		
 	}
 	.team-members{
-		padding-left: 90px;
+		margin-left: 70px;
 	}
 	#skills-title{
 		font-size: 28pt;
