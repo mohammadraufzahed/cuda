@@ -226,12 +226,12 @@
 		<hr>
 		<p id="contact-address">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202)
 			456-1111</p>
-		<form action="#" id="contact-form">
+		<form id="contact-form" onsubmit="sendMail()">
 			<input class="contact-form-input contact-form-input-text" id="contact-name" type="text"
 				placeholder="Your Name" required>
-			<input class="contact-form-input contact-form-input-text" type="email" required
+			<input class="contact-form-input contact-form-input-text" id="contact-email" type="email" required
 				placeholder="Your Email"><br>
-			<input class="contact-form-input contact-form-input-message" type="text" placeholder="Your Message"
+			<input class="contact-form-input contact-form-input-message" id="contact-body-msg" type="text" placeholder="Your Message"
 				required><br>
 			<input id="submit-button" type="submit" value="SEND MESSAGE">
 		</form>
@@ -247,6 +247,8 @@
 			<a href="#" class="fotter-links">Dribbble</a>
 			<a href="#" class="fotter-links">Github</a>
 		</div>
+	</div>
+	<script src="js/mail.js"></script>
 </body>
 
 </html>
