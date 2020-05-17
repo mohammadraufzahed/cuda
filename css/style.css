@@ -150,7 +150,7 @@
 	float: left;
 	color: #fff;
 	text-align: center;
-	margin-right: 40px;
+	margin-left: 60px;
 }
 
 .services-header {
@@ -315,11 +315,9 @@
 	font-weight: lighter;
 	font-size: 20pt;
 }
-
-.skills-item {
-	position: relative;
-	left: 200px;
-
+.skills-item{
+	margin-left: 150px;
+	
 }
 
 .progress-bar {
@@ -560,4 +558,153 @@
 	color: #fff;
 	text-align: center;
 	padding-top: 20px;
+}
+::-webkit-input-placeholder {
+   padding-left: 5px; 
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   padding-left: 5px; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   padding-left: 5px; 
+}
+
+:-ms-input-placeholder {  
+   padding-left: 5px; 
+}
+#contact-form{
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+.contact-form-input{
+	font-family: 'TitillumWeb Regular';
+	font-weight: normal;
+	font-size: 12pt;
+	color: #fff;
+	border: 0px;
+	background-color: #273a71;
+}
+.contact-form-input-text{
+	width: 400px;
+	height: 35px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.contact-form-input-message{
+	width: 810px;
+	height: 200px;
+}
+#submit-button{ 
+	text-align: center;
+	font-family: 'TitilliumWeb SemiBold';
+	font-weight: normal;
+	font-size: 12pt;
+	color: #fff;
+	background-color: #30bae7;
+	border: 0px;
+	width: 200px;
+	height: 40px;
+	margin-top: 20px;
+}
+/*Footer style*/
+#footer{
+	width: 100%;
+	height: auto;
+	background-color: #344b8e;
+	text-align: center;
+}
+#footer-link{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.fotter-links{
+	font-family: 'TitilliumWeb SemiBold';
+	font-weight: normal;
+	font-size: 16pt;
+	color: white;
+	text-decoration: none;
+	padding-left: 30px;
+}
+.fotter-links:hover{
+	color: #30bae7;
+	transition: all 0.5s;
+}
+@media only screen  and (min-width : 1824px) {
+	#skill-items{
+		padding-left: 70px;
+	}
+	#members-container{
+		padding-left: 180px;
+	}
+	#services{
+		padding-left: 250px;
+	}
+}
+@media only screen  and (min-width : 1224px) {
+	#header-content p{
+		font-size: 25pt;
+	}
+	#button-header button{
+		font-size: 13pt;
+	}
+	#service-title{
+		font-size: 28pt;
+	}
+	#services{
+		width: 100%;
+	}
+	.services-item{
+		width: 250px;
+	}
+	.services-pic{
+		padding-right: 0px;
+	}
+	.services-header{
+		padding-right: 0px;
+	}
+	.services-description{
+		width: 247px;
+		font-size: 12px;
+	}
+	#service-description{
+		font-size: 13.5pt;
+	}
+	#team-header{
+		font-size: 28pt;
+	}
+	#team-description{
+		font-size: 13.5pt;
+	}
+	#members-container{
+		width: 100%;
+		
+	}
+	.team-members{
+		margin-left: 70px;
+	}
+	#skills-title{
+		font-size: 28pt;
+	}
+	#skills-description{
+		font-size: 13.5pt;
+	}
+	#skill-items{
+		width: 100%;
+		padding-left: 70px;
+	}
+	#portfolio-title{
+		font-size: 28pt;
+	}
+	#portfolio-description{
+		font-size: 13.5pt;
+	}
+	#portfolio-button{
+		padding-top: 30px;
+	}
+	#protfolio-items{
+		width: 90%;
+	}
 }
